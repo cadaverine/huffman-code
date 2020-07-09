@@ -20,6 +20,7 @@ jobs:
       id: go
 
     - name: Set up environments
+      uses: cedrickring/golang-action@1.5.2
       env:
         GO111MODULE: "on"
         PROJECT_PATH: "./cmd/huffman-code"
